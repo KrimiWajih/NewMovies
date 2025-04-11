@@ -2,7 +2,7 @@ const express = require("express");
 const { config } = require("./configuration/config");
 const cors = require("cors")
 const MRouter = require("./router/router");
-const Port = process.env.port;
+const Port = process.env.PORT ||5000;
 const app = express()
 
 
